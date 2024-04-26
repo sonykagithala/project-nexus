@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta name="viewport" content="width"=device-width,initial-scale=1.0>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+*{
+margin :0;
+padding :0;
+}
+body{
+font-family: 'Merriweather', serif;
+background-color: #ebf2ff;
+}
+.navbar{
+display:flex;
+align-items: center;
+justify-content: space-around;
+background-color: #fff;
+}
+.container{
+  max-width:100%;
+  padding: 0px 20px;
+  margin: 0 auto;
+  }
+  .hero_container{
+  margin-top: 20px;
+display: flex;
+flex-direction: row-reverse;
+}
+.hero__image__container{
+  width:500px;
+  }
+  .coupan{
+  float:left;
+  width:100px;
+  height:100px;
+  }
+  #navbar__brand{
+width: 100px;
+}
+.navbar_logo{
+width:100%;
+margin-left:120%;
+}
+ @media (min-width:768px)
+  { .navbar
+  {
+  justify-content: space-between;
+  padding:10px 30px;
+   }
+}
+.dashed{
+border-style:dotted;
+border-width:2px;
+width:250px;
+height:40px;
+}
+</style>
+</head>
+<body>
+<header>
+<nav class="navbar">
+<img src="/home/rguktongole/Downloads/off.jpeg" class="coupan" style="float:left; width:100px; height:100px;">
+<center>
+<img src="/home/rguktongole/Downloads/cut.jpg" class="coupan" style="width:150px; height:150px;">
+</center>
+<img src="/home/rguktongole/Downloads/off.jpeg" class="coupan" style="float:left; width:100px; height:100px;">
+</nav>
+</header>
+<main clas=="container">
+<div class="hero__image__container">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>Stores</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>Categories</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>Indlge</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>Coupans</span>
+<center>
+<div>
+<img src="ASSETS/logo.png" width="150" height="100" alt="logo" id="navbar__brand" class="navbar_logo">
+</div>
+<input type="text" class="dashed" placeholder="enter your coupan code" required>
+<button style="background-color:green;width:100px; height:30px;">Coupan code</button>
+</center>
+</section>
+</main>
+</body>
+</html>

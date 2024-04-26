@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width"=device-width,initial-scale=1.0>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css">
+<title>
+</title>
+</head>
+<body>
+<header>
+<nav class="navbar">
+<div class="navbar__brand">
+<img src="ASSETS/logo.png" width="150" height="100" alt="logo" class="navbar_logo">
+</div>
+<div class "navbar__nav__item">
+<button class="nav__item button_primary" onclick="myfunction1()">SIGN IN</button>
+<script>
+function myfunction1(){
+window.location.href="/home/rguktongole/signin.html";
+}
+</script>
+<button class="nav__item button_primary" onclick="myfunction()">login</button>
+<script>
+function myfunction(){
+window.location.href="/home/rguktongole/loginp.html";
+}
+</script>
+</div>
+</nav>
+</header>
+<main class="container">
+<section class="hero__container">
+<div  class="hero__image__container">
+<img src="/home/rguktongole/Desktop/MYFP/ASSETS/hero.jpeg" alt="hero image" class="hero__image">
+</div>
+<div class="hero__description">
+<h1 class="hero__text">
+order food  from  favourite 
+  restuarants near you.
+</h1>
+<form method="POST" action="orderfood.html">
+<button class="button_primary">order now </button>
+</form>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<section class="explore__menu__container">
+<h1 class="explore__menu__text">Explore Our Menu</h1>
+<div class="explore__menu__gradient__bg">
+
+</div>
+<div class="Explore__menu__lists">
+<div class="food__card">
+<div class="food__card__image__container">
+<img src="ASSETS/Burger.jpeg" alt="burger" class="food__image">
+</div>
+<div class="food__card__description">
+<h3 class="food__title">BURGER</h3>
+<p>Burger,King,Medonalds,Burger place<spam style="color:#D83A56;">+3</spam></p>
+</div>
+</div>
+<div class="food__card" id="pizza__card">
+<div class="food__card__image__container">
+<img src="pizza.png" alt="burger" class="food__image">
+</div>
+<div class="food__card__description">
+<h3 class="food__title">PIZZAS</h3>
+<p>Pizza hut,Dommino's pizza<spam style="color:#D83A56;">+3</spam></p>
+</div>
+</div>
+<div class="food__card">
+<div class="food__card__image__container">
+<img src="ASSETS/ice cream.jpeg" alt="burger" class="food__image">
+</div>
+<div class="food__card__description">
+<h3 class="food__title">ICE CREAMS</h3>
+<p>Choclate,vinella,strawberry<spam style="color:#D83A56;">+3</spam></p>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>
